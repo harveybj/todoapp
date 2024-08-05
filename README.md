@@ -1,6 +1,6 @@
 # Todo App
 
-A simple todo app built with [Your Tech Stack].
+A simple todo app built with React.
 
 ## Getting Started
 
@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-- [Your Tech Stack]
+- React [vite@4.1.0]
 
 ### Installation
 
