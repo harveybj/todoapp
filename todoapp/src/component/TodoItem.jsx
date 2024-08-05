@@ -1,4 +1,13 @@
 import styles from "./todoitem.module.css";
+/**
+ * Renders a single todo item with delete and strike-through functionality.
+ *
+ * @param {Object} props - The properties for the component.
+ * @param {Object} props.item - The todo item to render.
+ * @param {Array} props.todos - The list of all todo items.
+ * @param {Function} props.setTodos - The function to update the list of todo items.
+ * @return {JSX.Element} The rendered todo item.
+ */
 export default function TodoItem({ item, todos, setTodos }) {
   function handleDelete(item) {
     setTodos(todos.filter((todo) => todo !== item));
